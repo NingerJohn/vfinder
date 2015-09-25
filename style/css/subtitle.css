@@ -1,0 +1,92 @@
+hr.subtitle-hr{
+	width: 1000px;
+	margin: 5px auto;
+}
+
+/* Subtitle List Page */
+table.subtitle-list td:nth-child(1){
+	text-align: left;
+}
+table.subtitle-list td:nth-child(2){
+	text-align: center;
+}
+table.subtitle-list td:nth-child(3){
+	text-align: center;
+}
+table.subtitle-list td:nth-child(4){
+	text-align: center;
+}
+table.subtitle-list td:nth-child(5){
+	text-align: center;
+}
+
+
+
+
+
+/* Subtitle Single File Page */
+div.subtitle{
+	width: 1000px;
+}
+div.subtitle-info{
+	width: 1000px;
+}
+div.sub-info-row{
+	margin: 15px;
+}
+
+/* comment box and list of comments */
+div.comment{
+	width: 1000px;
+	margin: 0px 0px 0px 50px;
+}
+textarea.content{
+	resize:none;
+	width:600px;
+	height: 100px;
+}
+div.comment-list{
+	width: 900px;
+	border: 1px dotted black;
+	padding: 5px 15px 15px 15px;
+	margin: 0px 0px 0px 50px;
+}
+div.single-comment{
+	width: 800px;
+	height: auto;
+	background-color: #F5F7F5;
+	margin: 20px 0px 0px 0px;
+	padding: 5px;
+	border-left: 1px solid black;
+	border: 1px solid #DDD;
+}
+div.comment-title{
+	padding: 5px;
+	border-bottom: 0px solid #DDD;
+}
+div.comment-content{
+	margin: 5px 0px 15px 0px;
+	padding: 5px;
+	min-height: 50px;
+	/*border-bottom: 1px dotted black;*/
+	border-bottom: 1px solid #DDD;
+}
+button.comment-control-btn{
+	width: 50px;
+	height: 25px;
+	font-size: 8px;
+	padding: 0px;
+}
+
+div.single-child-comment{
+	width: 770px;
+	height: auto;
+	background-color: #F5F7F5;
+	margin: 5px 0px 0px 30px;
+	padding: 5px;
+	border: 1px solid #DDD;
+}
+form.reply-comment-form{
+	margin: 5px 0px 0px 0px;
+}
+

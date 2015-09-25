@@ -1,0 +1,22 @@
+
+img{
+	width: 150px;
+	height: auto;
+}
+table.table{
+	/*width:600px;*/
+	height: 200px;
+	border:0px;
+}
+table.table td.poster{
+	width: 150px;
+}
+table.table td:nth-child(1){
+	height: 20px;
+	border:0px;
+}
+table.table td:nth-child(2){
+	height: 20px;
+	border:0px;
+}
+

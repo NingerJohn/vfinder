@@ -1,0 +1,205 @@
+/* movie list page */
+a{
+	cursor:hand;
+}
+hr.movie-title-hr{
+	width: 1000px;
+	margin: 5px auto;
+}
+
+table.movie-list td:nth-child(1){
+	text-align: left;
+}
+table.movie-list td:nth-child(2){
+	text-align: center;
+}
+table.movie-list td:nth-child(3){
+	text-align: center;
+}
+table.movie-list td:nth-child(4){
+	text-align: center;
+}
+table.movie-list td:nth-child(5){
+	text-align: center;
+}
+table.movie-list td:nth-child(6){
+	text-align: center;
+}
+
+/* movie single page */
+div.movie{
+	width: 1000px;
+}
+div.movie-info{
+	width: 1000px;
+}
+div.torrent-details{
+	border: 1px dashed black;
+	min-height: 150px;
+	margin: 15px;
+	padding: 10px;
+	font-size: 13px;
+}
+div.sub-info-row{
+	margin: 15px;
+}
+
+div.torrent-title{
+	height: 20px;
+	width: auto;
+	/*font-size: 17px;*/
+	margin: 0px;
+}
+span.folder-icon{
+	color: #428bca;
+}
+div.torrent-files-list{
+	margin: 0 0 0 15px;
+	color: black;
+}
+/* first dir */
+div.first-dir-box{
+	width:930px;
+	height: 20px;
+	text-decoration: underline;
+	margin: 0px 0 5px 5px;
+	color: black;
+}
+a.first-dir-title{
+	width: 940px;
+	height: 15px;
+	letter-spacing:0px;
+}
+div.first-subsidiary-box{
+	width:930px;
+	height: auto;
+	text-decoration: underline;
+	margin: 0px 0 5px 20px;
+	color: black;	
+}
+
+/* second dir */
+div.second-dir-box{
+	width:930px;
+	height: 20px;
+	text-decoration: underline;
+	margin: 3px 0 5px 0px;	
+}
+div.second-subsidiary-box{
+	width:930px;
+	height: auto;
+	text-decoration: underline;
+	margin: 0px 0 5px 15px;
+	color: black;	
+}
+
+/* third dir */
+div.third-dir-box{
+	width:930px;
+	height: 20px;
+	text-decoration: underline;
+	margin: 0px 0 5px 0px;
+	color: black;	
+}
+div.third-subsidiary-box{
+	width:930px;
+	height: auto;
+	text-decoration: underline;
+	margin: 0px 0 5px 20px;
+	color: black;	
+}
+
+
+
+
+
+
+
+
+
+div.sub-file{
+	width: auto;
+	height: auto;
+	margin: 5px;
+}
+table.single-file{
+	width: 950px;
+	margin: 0px;
+	font-size: 13px;
+	color: #428BCA;
+}
+table.single-file tr{
+	height: 22px;
+	width: 950px;
+	display: inline-block;
+}
+table.single-file td:nth-child(1){
+	width:800px;
+	text-align: left;
+}
+table.single-file td:nth-child(2){
+	width:50px;
+	text-align: right;
+}
+table.single-file tr td{
+	height: 22px;
+	display: inline-block;
+	padding: 0px;
+	border-top: none;
+	border-bottom: 1px solid #ddd;
+}
+
+/* comment box and list of comments */
+div.comment{
+	width: 1000px;
+	margin: 0px 0px 0px 50px;
+}
+textarea.content{
+	resize:none;
+	width:600px;
+	height: 100px;
+}
+div.comment-list{
+	width: 900px;
+	border: 1px dotted black;
+	padding: 5px 15px 15px 15px;
+	margin: 0px 0px 0px 50px;
+}
+div.single-comment{
+	width: 800px;
+	height: auto;
+	background-color: #F5F7F5;
+	margin: 20px 0px 0px 0px;
+	padding: 5px;
+	border-left: 1px solid black;
+	border: 1px solid #DDD;
+}
+div.comment-title{
+	padding: 5px;
+	border-bottom: 0px solid #DDD;
+}
+div.comment-content{
+	margin: 5px 0px 15px 0px;
+	padding: 5px;
+	min-height: 50px;
+	/*border-bottom: 1px dotted black;*/
+	border-bottom: 1px solid #DDD;
+}
+button.comment-control-btn{
+	width: 50px;
+	height: 25px;
+	font-size: 8px;
+	padding: 0px;
+}
+
+div.single-child-comment{
+	width: 770px;
+	height: auto;
+	background-color: #F5F7F5;
+	margin: 5px 0px 0px 30px;
+	padding: 5px;
+	border: 1px solid #DDD;
+}
+form.reply-comment-form{
+	margin: 5px 0px 0px 0px;
+}

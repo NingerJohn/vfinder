@@ -1,0 +1,381 @@
+body{
+	font-family: 'Microsoft Yahei';
+	//position: relative;
+}
+/* css for all */
+.btn{
+	border-radius: 0px;
+}
+ul.pagination{
+	display: inline-block;
+	width: auto;
+	margin: 0px auto;
+}
+/* login */
+div.login{
+	width: auto;
+}
+/* head menu*/
+div.site-name{
+	max-width: 900px;
+	margin: 15px 0px 0px 50px;
+	padding: 0px;
+}
+div.menu{
+	width: 1000px;
+	padding: 0px;
+}
+ul.nav-tabs {
+	background-color: rgb(255, 162, 11);
+	color:black;
+	width: 100%;
+	height: 41px;
+}
+ul.nav-tabs li a{
+	color: rgb(66, 139, 202);
+	border-radius: 0;
+	margin: 0;
+	border:0;
+}
+ul.nav-tabs li.active a{
+	background-color: rgb(66, 139, 202);
+	border:0;
+	color: rgb(255,255,255);
+}
+div.info{
+	border: 1px solid rgb(220,220,220);
+	padding: 0px;
+	width: 1000px;
+
+}
+div.info ul{
+	height: 100%;
+}
+ul.nav-stacked{
+	width: 120px;
+	//background-color: rgb(230,230,230);
+	margin: 25px 0 8px 15px;
+}
+ul.nav-stacked li{
+	border-radius: 0px;
+}
+ul.nav-stacked li.active a{
+	//background-color: rgb(255,255,255);
+	border-radius: 0px;
+	//color:rgb(66, 139, 202);
+}
+
+/* personal information */
+div.info div.personal-info{
+		min-height: 320px;
+		margin: 25px 20px 55px 150px;
+		border: 1px solid rgb(230,230,230);
+}
+
+div.info div.personal-info form{
+	width: auto;
+	margin: 0px;
+}
+
+div.info div.personal-info form table{
+	margin: 0px;
+}
+table.personal-info{
+	width: 100%;
+	font-size: 14px;
+}
+table.personal-info td:nth-child(1){
+	width: 80px;
+}
+table.personal-info td:nth-child(2){
+	width: 380px;
+	text-align: left;
+}
+table.personal-info td:nth-child(3){
+	width: 60px;
+}
+table.personal-info td:nth-child(4){
+	width: 50px;
+}
+table.personal-info td:nth-child(5){
+	width: 40px;
+}
+table.personal-info td:nth-child(6){
+	width: 50px;
+}
+
+/* interest page */
+div.info div.interest{
+		min-height: 320px;
+		margin: 25px 20px 55px 145px;
+		border: 1px solid rgb(230,230,230);
+}
+div.info div.interest table{
+	margin: 0px;
+	font-size: 13px;
+}
+div.interest .tag-wall{
+	//background-color: #F9CC9D;
+	height: 300px;
+}
+div.tag{
+	float: left;
+	min-width: 65px;
+	height:55px;
+	margin: 5px 0 0 5px;
+	text-align:center;
+	display: inline-block;
+	//background-image:url('../img/tag_120.png');
+	//background-repeat:no-repeat;
+	//background-size:60px, 60px;
+}
+div.tag-1{
+	background-color: #FF9E3F; /*default*/
+}
+div.tag-2{
+	background-color: #BCDEF5; /*blue*/
+}
+div.tag-3{
+	background-color: #EDB4ED; /*pink*/
+}
+div.tag-4{
+	background-color: #C7BAFE; /*purple*/
+}
+div.tag-5{
+	background-color: #FFC43F; /*yellow*/
+}
+div.tag-6{
+	background-color: #;
+}
+div.tag-7{
+	background-color: #;
+}
+div.tag-pin{
+	width: 20px;
+	height: 20px;
+	float: left;
+/*	background-image:url('../img/tag_pin.png');
+	background-repeat:no-repeat;
+	background-position: 2px 1px;
+	background-size:18px, 18px;*/
+}
+div.delete-btn{
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: right;
+}
+a.delete-btn{
+	color:#6F8289;
+}
+div.text{
+	//float: left;
+	clear: both;
+	margin: auto 3px;
+}
+
+/* 
+* vshare
+*/
+
+/* vshare list */
+div.vshare{
+	width: 1000px;
+	padding: 0px;
+	border: 1px solid #DCDCDC;
+}
+div.vshare-list{
+	width: 980px;
+	padding: 0px;
+	text-align: center;
+}
+div.vshare-list table{
+	text-align: left;
+}
+div.vshare-list table.vshare-list tr.table-title td{
+	text-align: center;
+}
+div.vshare-list table th{
+	text-align: center;
+}
+
+table.vshare-list{
+	font-size: 13px;
+	width: 100%;
+}
+table.vshare-list td:nth-child(1){
+	width: 430px;
+	text-align: left;
+}
+table.vshare-list td:nth-child(2){
+	width: 80px;
+	text-align: center;
+}
+table.vshare-list td:nth-child(3){
+	width: 50px;
+}
+table.vshare-list td:nth-child(4){
+	width: 50px;
+}
+table.vshare-list td:nth-child(5){
+	width: 60px;
+}
+table.vshare-list td:nth-child(6){
+	width: 60px;
+	text-align: center;
+}
+
+
+/* upload page */
+div.upload-window{
+	width: 1000px;
+	padding: 0px;
+	border: 1px solid #DCDCDC;
+}
+div.shortcut{
+	margin: 5px;
+}
+hr{
+	margin: 10px auto;
+}
+div.warning{
+	width:auto;
+	padding: 5px 0px 2px 20px;
+	margin: 5px auto;
+}
+div.upload-tips{
+	width:auto;
+	margin:5px auto;
+	padding:5px 0px 2px 20px;
+}
+div.upload-box{
+	padding: 10px 2px 2px 20px;
+	//border: 1px solid #DCDCDC;
+	margin: 5px;
+	width: auto;
+	//height: 70px;
+}
+div.upload-dialog{
+	width: 400px;
+	height: auto;
+	//background-color: rgb(250,250,250);
+	//border: 1px solid #DCDCDC;
+	margin: 0px;
+}
+input.select-file{
+	margin: 0 0 10px 0px;
+}
+div.dialog-head{
+	display: none;
+}
+span.upload-result{
+	display: inline-block;
+	margin:10px 0px 0px 15px;
+}
+div.progress{
+	display: none;
+	margin: 5px 0px 10px 0px;
+}
+input.attachment{
+	display: none;
+}
+input.filesize{
+	display: none;
+}
+input.filecount{
+	display: none;
+}
+div.attachment{
+	display: none;
+	margin: 10px 0px 0px 0px;
+	padding: 2px 10px 2px 10px;
+	border: 1px solid #DCDCDC;
+}
+span.delete-status{
+	display: inline-block;
+	margin: 10px 0px 0px 0px;
+}
+div.submit{
+	display: block;
+	padding: 0 0 0 25px;
+	width: auto;
+	margin: 10px 0 15px 0;
+}
+input.title{
+	display:none;
+}
+input.quality{
+	display:none;
+}
+div.add-brief-box{
+	margin: 5px;
+}
+textarea.content{
+	width: 700px;
+	height: 200px;
+	display: block;
+	resize: none;
+}
+select.form-control{
+	width:auto;
+	margin:5px 0;
+}
+input.submit-btn{
+	margin: 10px 0 0 0;
+}
+
+
+/* 
+* subtitle
+*/
+
+/* subtitle list */
+div.subtitle{
+	width: 1000px;
+	padding: 0px;
+	border: 1px solid #DCDCDC;
+}
+div.summary-info{
+	width: 950px;
+	padding: 0px;
+}
+div.subtitle-list{
+	width: 950px;
+	padding: 0px;
+	text-align: center;
+}
+div.subtitle-list table.subtitle-list{
+	text-align: left;
+}
+div.subtitle-list table.subtitle-list tr.table-title td{
+	text-align: center;
+}
+div.subtitle-list table th{
+	text-align: center;
+}
+
+table.subtitle-list{
+	width: 100%;
+	font-size: 13px;
+}
+table.subtitle-list td:nth-child(1){
+	width: 400px;
+	text-align: left;
+}
+table.subtitle-list td:nth-child(2){
+	width: 70px;
+	text-align: center;
+}
+table.subtitle-list td:nth-child(3){
+	width: 40px;
+}
+table.subtitle-list td:nth-child(4){
+	width: 50px;
+}
+table.subtitle-list td:nth-child(5){
+	width: 60px;
+}
+table.subtitle-list td:nth-child(6){
+	width: 60px;
+	text-align: center;
+}
